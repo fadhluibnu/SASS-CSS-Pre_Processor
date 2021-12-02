@@ -1,0 +1,49 @@
+// .main{
+//     background-color: lightblue;
+//     .main-heading{
+//         font-size: 2em;
+//     }
+//     .main-paragraph{
+//         font-size: 1.4em;
+//     }
+// }
+
+// grupping
+// .main, footer{
+//     h1, p{
+//         letter-spacing: 1px;
+//     }
+// }
+
+// karakter & atau parent selector
+// .main{
+//     .container &{
+//         background-color: lightblue;
+//     }
+//     .main-heading{
+//         font-size: 2em;
+//     }
+
+//     &:hover{
+//         background-color: salmon;
+//     }
+// }
+
+// & digunakan unutk menambahkan nama selector parent jika di butuhkan
+.main{
+    & &-heading{
+        font-size: 2em;
+    }
+    & &-paragraph{
+        font-size: 1.4em;
+    }
+}
+
+.footer{
+    & &-heading{
+        font-size: 2em;
+    }
+    & &-paragraph{
+        font-size: 1.4em;
+    }
+}

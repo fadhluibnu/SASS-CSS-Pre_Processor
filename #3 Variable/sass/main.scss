@@ -1,0 +1,52 @@
+// css variables
+// :root{
+//     --primary-color: blue;
+//     --seccondary-color:  #ddd;
+//     --text-color: salmon;
+// }
+
+// body{
+//     background-color: var(--primary-color);
+// }
+
+// h1{
+//     color: var(--text-color);
+// }
+
+// SASS variables
+// perilaku :
+// dash (-) dan underscore (_) dianggap sama oleh sass
+// scope variable (variable local, dan variable global)
+
+
+// variable global
+// $seccondary-color: #ddd;
+// $text-color: salmon;
+// membuat variable yang sama namanya dengan variable local
+// $primary-color: blue;
+
+// body {
+// variabel lokal maka tidak bisa di gunakan di luar { .. } body
+// untuk mengubah jadi global,, tinggal kasih !global di belakang
+// $primary-color: blue !global;
+// $primary-color: rgb(179, 179, 179);
+// background-color: $primary-color;
+// }
+
+// h1 {
+// color: $primary-color;
+// }
+
+
+// map
+// ini mirip dengan array assosiatif
+// $alert-danger : red;
+// $alert-success:green;
+// $alert-warning: orange;
+$alert:('danger': red,
+    'success': green,
+    'warning': orange);
+
+h1 {
+    color: map-get($alert, 'danger')
+}

@@ -1,0 +1,110 @@
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 100px;
+  height: 100px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #1e1e29;
+  color: #ddd;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5;
+  border-top-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #0ad30a;
+}
+
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #0bdc0b;
+}
+
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #0be60b;
+}
+
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #0cf00c;
+}
+
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #13f313;
+}
+
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #1cf41c;
+}
+
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #26f426;
+}
+
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #30f530;
+}
+
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #3af53a;
+}
+
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #43f643;
+}
+
+.socials {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.socials .insragram {
+  color: #5900ff;
+}
+
+.socials .facebook {
+  color: #35b998;
+}
+
+.socials .github {
+  color: #353333;
+}
+
+.socials .whatsapp {
+  color: #0ac90a;
+}
+/*# sourceMappingURL=main.css.map */

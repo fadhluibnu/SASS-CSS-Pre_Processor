@@ -1,0 +1,15 @@
+// mamakai @import
+// tapi ini sangat tidak di sarankan
+
+// metode penulisan ke satu
+// @import 'module/mixin';
+// @import 'module/header';
+// @import 'module/container';
+// @import 'module/footer';
+
+// metode penulisan ke dua
+// @import 'module/mixin', 'module/header', 'module/container', 'module/footer';
+
+@use 'module/header';
+@use 'module/container';
+@use 'module/footer';

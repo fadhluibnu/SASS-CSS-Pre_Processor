@@ -1,0 +1,15 @@
+@use 'mixin';
+
+.footer ul {
+    @include mixin.inline-list();
+
+    li {
+        padding: 1em;
+        background-color: orange;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
